@@ -1,0 +1,119 @@
+body{
+    background-color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    padding: 1rem;
+    float: left;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 60%;
+    margin-bottom: 2rem;
+    justify-content: center;
+    border-radius: 27px 27px 27px 27px;
+    -moz-border-radius: 27px 27px 27px 27px;
+    -webkit-border-radius: 27px 27px 27px 27px;
+    border: 4px solid #000000;
+}
+.aboutd ,.register , .contact, .lesson, .header-logo{
+    text-align: center;
+    padding: 10px;
+    background-color: lightgreen;
+    margin: auto;
+    width:20%;
+}
+.abouttext{
+    padding: 2rem;
+    margin-top: 1%;
+    font-size: 20px;
+    color: rebeccapurple;
+}
+.form , .contact-form{
+    text-align: center;
+    float: left;
+    margin: auto;
+    margin-left: 10rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 27px 27px 27px 27px;
+    -moz-border-radius: 27px 27px 27px 27px;
+    -webkit-border-radius: 27px 27px 27px 27px;
+    border: 2px solid #000000;
+}
+legend{
+    font-size: 30px;
+    color: black;
+    margin:3rem;
+}
+button{
+    padding:10px;
+    text-align: center;
+    justify-content: center;
+    color: red;
+}
+.contact-form{
+    padding-top: 100px;
+}
+input,textarea{
+    width:400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size:18px;
+    border:1px solid #dee7ec;
+}
+.contact-submit{
+    background-color: #dee7ee;
+    color: #889eab;
+}
+span{
+    color: #ff4a4a;
+}
+.header-logo{
+    float: left;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    width : 30%;
+}
+.main{
+    background-color: #fff;
+    height: 0%;
+    padding: 100px 80px;
+}
+.copy-container h1{
+    font-size: 140px;
+}
+.copy-container h2{
+    font-size: 60px;
+}
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+.section-title{
+    border-bottom: 2px solid #dee7ee;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+.contents-item{
+    float: left;
+    margin-right: 50px;
+}
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+}
+.lessonc{
+    float: left;
+    margin-top: 1rem;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
